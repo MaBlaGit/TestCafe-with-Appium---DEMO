@@ -1,0 +1,17 @@
+{
+  "name": "test-cafe-appium-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe webdriverio:chrome:android:device ./src/tests/appium-demo-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "testcafe": "^1.2.1",
+    "testcafe-browser-provider-selenium": "^0.4.0",
+    "testcafe-browser-provider-webdriverio": "git+https://github.com/fnlctrl/testcafe-browser-provider-webdriverio.git"
+  }
+}
