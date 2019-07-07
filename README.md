@@ -25,12 +25,14 @@ Installed git
 
 1.Download this repo on test machine
 
-2.Connect mobile device to configured test machine (see Prerequisites section)
+2.Add to the environmental variable: REMOTE_HOST=localhost, REMOTE_PORT=4723
 
-3.On Android system unlock Developer Options and enable and allow USB debugging
+3.Connect mobile device to configured test machine (see Prerequisites section)
 
-4.On test machine open Terminal, run command __adb devices__
+4.On Android system unlock Developer Options and enable and allow USB debugging
 
-5.Start Appium server by entering command __appium__
+5.On test machine open Terminal, run command __adb devices__
 
-6.Go to root of the project and type __npm run test__
+6.Start Appium server by entering command __appium__
+
+7.Go to root of the project and type __npm run test__
