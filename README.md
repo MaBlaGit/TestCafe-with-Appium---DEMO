@@ -25,7 +25,7 @@ Installed git
 
 1.Download this repo on test machine
 
-2.Add to the environmental variable: REMOTE_HOST=localhost, REMOTE_PORT=4723
+2.Add environment variables: __REMOTE_HOST=localhost__, __REMOTE_PORT=4723__
 
 3.Connect mobile device to configured test machine (see Prerequisites section)
 
